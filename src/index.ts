@@ -1,3 +1,3 @@
-import { helloworld } from "./helloworld";
+import { getGods } from "./getGodsJson";
 
-helloworld();
+getGods();

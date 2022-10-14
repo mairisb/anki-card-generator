@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "run": "node dist/index.js"
+    "run": "node dist/index.js",
+    "get-gods": "node dist/getGodsJson.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
+    "@types/node": "^18.8.5",
     "typescript": "^4.8.4"
   }
 }
