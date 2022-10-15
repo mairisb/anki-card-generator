@@ -1,20 +1,13 @@
-import appRootPath from "app-root-path";
 import axios from "axios";
 import fs from "fs";
-import path from "path";
-import godsJson from "./assets/gods.json";
-import { getGodImgFileName } from "./getGodImgFileName";
-import { IGod } from "./interfaces/IGod";
+import { getGodImgFilePath } from "./getGodImgFileName";
+import { GodsService } from "./GodsService";
 
 let counter = 1;
-let gods = [...godsJson] as IGod[];
+let gods = GodsService.getGods();
 
 gods.forEach(async (god) => {
-  const filePath = path.resolve(
-    appRootPath.path,
-    `src/assets/gods-img/${getGodImgFileName(god.name)}.jpg`
-  );
-
+  const filePath = getGodImgFilePath(god);
   const writer = fs.createWriteStream(filePath);
 
   const godCardResponse = await axios({

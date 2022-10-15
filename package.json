@@ -8,7 +8,8 @@
     "build:watch": "tsc --watch",
     "start": "node dist/index.js",
     "get-gods:json": "node dist/getGodsJson.js",
-    "get-gods:img": "node dist/getGodsImg.js"
+    "get-gods:img": "node dist/getGodsImg.js",
+    "generate-apkg": "node dist/generateGodCards.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/mairisb/anki-card-generator#readme",
   "dependencies": {
+    "anki-apkg-export": "^4.0.3",
     "app-root-path": "^3.1.0",
     "axios": "^1.1.2"
   },
