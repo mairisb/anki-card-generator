@@ -6,8 +6,9 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "run": "node dist/index.js",
-    "get-gods": "node dist/getGodsJson.js"
+    "start": "node dist/index.js",
+    "get-gods:json": "node dist/getGodsJson.js",
+    "get-gods:img": "node dist/getGodsImg.js"
   },
   "repository": {
     "type": "git",

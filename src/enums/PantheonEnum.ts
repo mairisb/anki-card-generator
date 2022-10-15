@@ -1,0 +1,18 @@
+export enum PantheonEnum {
+  Greek = "Greek",
+  Hindu = "Hindu",
+  Maya = "Maya",
+  Japanese = "Japanese",
+  Egyptian = "Egyptian",
+  Chinese = "Chinese",
+  Celtic = "Celtic",
+  Slavic = "Slavic",
+  Roman = "Roman",
+  Voodoo = "Voodoo",
+  GreatOldOnes = "Great Old Ones",
+  Norse = "Norse",
+  Babylonian = "Babylonian",
+  Arthurian = "Arthurian",
+  Yoruba = "Yoruba",
+  Polynesian = "Polynesian",
+}
