@@ -9,9 +9,10 @@
     "start": "node dist/index.js",
     "get-gods:json": "node dist/gods/getGodsJson.js",
     "get-gods:img": "node dist/gods/getGodsImg.js",
-    "generate-apkg": "node dist/gods/generateGodCards.js",
+    "generate-gods-apkg": "node dist/gods/generateGodCards.js",
     "get-items:json": "node dist/items/getItemsJson.js",
-    "get-items:img": "node dist/items/getItemsImg.js"
+    "get-items:img": "node dist/items/getItemsImg.js",
+    "generate-items-apkg": "node dist/items/generateItemCards.js"
   },
   "repository": {
     "type": "git",
