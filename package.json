@@ -10,7 +10,8 @@
     "get-gods:json": "node dist/gods/getGodsJson.js",
     "get-gods:img": "node dist/gods/getGodsImg.js",
     "generate-apkg": "node dist/gods/generateGodCards.js",
-    "get-items:json": "node dist/items/getItemsJson.js"
+    "get-items:json": "node dist/items/getItemsJson.js",
+    "get-items:img": "node dist/items/getItemsImg.js"
   },
   "repository": {
     "type": "git",
