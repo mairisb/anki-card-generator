@@ -1,5 +1,5 @@
-import godsJson from "./assets/gods.json";
-import { IGod } from "./interfaces/IGod";
+import godsJson from "../assets/gods.json";
+import { IGod } from "../interfaces/IGod";
 
 export class GodsService {
   static getGods() {

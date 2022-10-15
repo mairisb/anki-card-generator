@@ -1,8 +1,8 @@
-import { BooleanStringFlagEnum } from "src/enums/BooleanStringFlagEnum";
-import { GodRoleEnum } from "src/enums/GodRoleEnum";
-import { GodTypeEnum } from "src/enums/GodTypeEnum";
-import { PantheonEnum } from "src/enums/PantheonEnum";
-import { PolarStringFlagEnum } from "src/enums/PolarStringFlagEnum";
+import { BooleanStringFlagEnum } from "../enums/BooleanStringFlagEnum";
+import { GodRoleEnum } from "../enums/GodRoleEnum";
+import { GodTypeEnum } from "../enums/GodTypeEnum";
+import { PantheonEnum } from "../enums/PantheonEnum";
+import { PolarStringFlagEnum } from "../enums/PolarStringFlagEnum";
 
 export interface IGod {
   id: number;

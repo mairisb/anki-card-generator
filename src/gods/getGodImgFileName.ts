@@ -1,6 +1,6 @@
 import appRootPath from "app-root-path";
 import path from "path";
-import { IGod } from "./interfaces/IGod";
+import { IGod } from "../interfaces/IGod";
 
 export const getGodImgFilePath = (god: IGod) =>
   path.resolve(

@@ -5,8 +5,6 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "resolveJsonModule": true,
-    "baseUrl": "./",
-    "rootDir": "./src",
     "outDir": "./dist"
   }
 }
