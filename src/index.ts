@@ -1,3 +1,1 @@
-import { getGods } from "./getGodsJson";
-
-getGods();
+console.log("hello world");

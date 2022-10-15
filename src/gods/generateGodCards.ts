@@ -7,15 +7,16 @@ import { GodsService } from "./GodsService";
 
 const gods = GodsService.getGods();
 
+console.log("Creating new apkg");
 const apkg = new AnkiExport("smite-gods");
+console.log("apkg created");
 
 gods.forEach((god) => {
   apkg.addMedia(
     getGodImgFileName(god),
     fs.readFileSync(getGodImgFilePath(god))
   );
-  console.log(`added media: ${getGodImgFileName(god)}`);
-  apkg.addCard(`<img src="${getGodImgFileName(god)}">`, god.name);
+  apkg.addCard(`<img src="${getGodImgFileName(god)}" />`, god.name);
   console.log(`added card: god.name`);
 });
 

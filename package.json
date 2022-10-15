@@ -7,9 +7,9 @@
     "build": "tsc",
     "build:watch": "tsc --watch",
     "start": "node dist/index.js",
-    "get-gods:json": "node dist/getGodsJson.js",
-    "get-gods:img": "node dist/getGodsImg.js",
-    "generate-apkg": "node dist/generateGodCards.js"
+    "get-gods:json": "node dist/gods/getGodsJson.js",
+    "get-gods:img": "node dist/gods/getGodsImg.js",
+    "generate-apkg": "node dist/gods/generateGodCards.js"
   },
   "repository": {
     "type": "git",
